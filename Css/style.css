@@ -1,0 +1,28 @@
+.wapper {
+  background-color: #ffffff;
+}
+
+.text {
+  width: 50%;
+  margin-top: 5%;
+  padding: 0 50px;
+}
+
+.heading {
+  font-size: 70px;
+  animation: 3s ease-in-out 1s 1 animate;
+  color: #b4f6f6;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(-75px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
